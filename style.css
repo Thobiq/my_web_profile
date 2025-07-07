@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+body{
+    background-color: #EEF1FF;
+    /* margin: 0; */
+}
+
+nav{
+    background-color: white;
+    height: 4rem;
+}
+
+.text-blue{
+    color: #0D84FA;
+}
+
+.text-abu{
+    color: #414141;
+}
+
+.container-cov{
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 0px; */
+}
+
+.cov-content{
+    /* background-color: #414141; */
+    padding: 1rem;
+    padding-bottom: 0px;
+    max-width: 1200px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ft-right-cov{
+    width: 350px;
+}
+
+.btn-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #0D84FA;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    /* height: 2rem; */
+}
+
+.button-download{
+    background-color: transparent;
+    border: 2px solid #0D84FA;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.container-about{
+    /* background-color: #0D84FA; */
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    /* background-color: #0D84FA; */
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-about{
+    width: 350px;
+}
+
+.about-title{
+    font-size: 30px;
+}
+
+.desc-about{
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.container-myskills{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.myskills-title{
+    margin-top: 2rem;
+    font-size: 30px;
+}
+
+.skills-container{
+    display: grid;
+    padding-top: 2rem;
+    gap: 30px;
+}
+
+.skill-card{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.skill-logo{
+    width: 50px;
+}
+
+.desc-skill{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-title{
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+.container-edu-expe{
+    background-color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+    /* margin-top: 20px; */
+}
+
+.container-edu-expe-content{
+    display: flex;
+    max-width: 900px;
+}
+
+.timeline{
+    position: relative;
+    margin: 0 auto;
+}
+
+.timeline-content{
+    margin-top: 20px;
+}
+
+.timeline::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #8a8a8a;
+    border-radius: 20px;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+}
+
+.timeline-item{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    /* background-color: aqua; */
+}
+
+.timeline-dot{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 5px solid #0D84FA;
+    border-radius: 50%;
+    top: 0px;
+    left: 9px;
+    z-index: 1;
+}
+
+.d-flex{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.timeline-icon{
+    height: 25px;
+}
+
+.edu-expe-title{
+    font-size: 30px;
+}
+
+.edu-container{
+    flex: 1;
+    margin-top: 2rem;
+    /* width: 400px; */
+}
+
+.edu-container ul li{
+    text-align: justify;
+}
+
+.awarde-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awarde-cards{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    gap: 30px;
+}
+
+.awarde-card{
+    align-items: center;
+    /* justify-content: center; */
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.awarde-icon{
+    height: 90px;
+}
+
+.footer{
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    padding: 2rem;
+    padding-bottom: 0px;
+}
+
+.button-image{
+    background-color: transparent;
+    border: none;
+}
+
+.button-icon{
+    width: 35px;
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+.card-hover:hover{
+    box-shadow: rgba(13, 132, 250, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px){
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* .container-cov{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .cov-content{
+        flex-direction: column;
+    }
+
+    .ft-about{
+        display: none;
+    }
+
+    /* .container-edu-expe{
+        flex-direction: column;
+        padding: 2rem;
+    } */
+
+
+    .awarde-card{
+        width: 80%;
+        margin: auto;
+    }
+
+    .skills-container{
+        width: 80%;
+    }
+
+    .skill-card{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 767px){
+    .skills-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .awarde-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+}
+
+@media (max-width: 900px){
+    .awarde-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .awarde-card{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .container-edu-expe-content{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+    .skills-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
